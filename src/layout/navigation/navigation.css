@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.navigation-body ul{
+    display: flex;
+    grid-gap: 3rem;
+    list-style: none;
+    align-items: center;
+    width: 17vw;
+}
+
+.navigation-body li{
+    display: flex;
+}
+
+.navigation-body ul li img{
+    height: 4vh;
+    width: 2.3vw;
+    border-radius: 60%;
+}
+
+.site-logo{
+    padding: 2px 0;
+}
+
+.site-logo img{
+    height: 17vh;
+    width: 9.5vw;
+    border-radius: 107px;
+    position: fixed;
+}
+
