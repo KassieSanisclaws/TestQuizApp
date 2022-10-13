@@ -48,14 +48,16 @@ body{
 }
 
 .navigation-btn{
-   background-color: rgba(0, 255, 128, 0.462);
+   background-color: #d5d8dcf8;
    height: 9vh;
    width: 10vw;
    
 }
 
 .navigation-btn span{
-    font-size: 20px;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
 }
 
 .site-logo{

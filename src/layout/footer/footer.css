@@ -10,10 +10,10 @@
     padding: 7px;
 }
 .footer-icon{
-   background-image: url(../../images/iconImages/copy-right-Icon.png);
+   background-image: url(../../images/iconImages/copyrightIcon.png);
    background-position: center;
-   height: 2.5vh;
+   height: 2vh;
    width: 1.3vw;
    background-size: 380% 300%;
-   margin-top: 1rem;
+   margin-top: 1.3rem;
 }

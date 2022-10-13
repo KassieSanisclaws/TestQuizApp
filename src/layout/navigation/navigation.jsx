@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./navigation.css";
 import QuizLogo from "../../images/iconImages/site-icon2.png";
-import TestIcon from "../../images/iconImages/test-icon.png";
-import PricingIcon from "../../images/iconImages/pricing-icon.png";
+import TestIcon from "../../images/iconImages/testIcon.png";
+import PricingIcon from "../../images/iconImages/priceIcon.png";
 
 export default function Navigation(){
     return (
@@ -14,7 +14,7 @@ export default function Navigation(){
                 <li><Link to="/tests"><img src={TestIcon} alt="testIcon"/><span>Tests</span></Link></li>      
                 <li> <Link to="/pricing"><img src={PricingIcon} alt="pricingIcon"/><span>Pricing</span></Link></li>               
              </ul>
-             <button className="navigation-btn"><span>TryForFree</span></button>
+             <button className="navigation-btn glass"><span>TryForFree</span></button>
        </nav>
     );
 }

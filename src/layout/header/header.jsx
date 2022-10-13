@@ -1,8 +1,8 @@
 import "./header.css";
 import { Link } from "react-router-dom";
-import webIcon from "../../images/iconImages/web-icon2.png";
-import helpIcon from "../../images/iconImages/help-icon.png";
-import signinIcon from "../../images/iconImages/user_login_icon2.png";
+import webIcon from "../../images/iconImages/webIcon.png";
+import helpIcon from "../../images/iconImages/helpIcon.png";
+import signinIcon from "../../images/iconImages/loginIcon.png";
 
 function Header(){
     return (

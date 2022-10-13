@@ -33,39 +33,43 @@ function TestPage(){
               <div className="testPage-container">
                 
                 <div className="test-cntnt1">
-                    <div className="test-cntnt1-countr">Score:{scoreCount}</div>
-                    <div className="test-cntnt1-title">NameOfTest</div>
-                    <div className="test-cntnt1-btn"><button><span>Next</span><div className="test-cntnt1-btnR"/></button></div>
+                    <div className="test-cntnt1-countr glass"><span>Score:{scoreCount}</span></div>
+                    <div className="test-cntnt1-title glass"><span>NameOfTest</span></div>
+                    <div className="test-cntnt1-btn"><button><div className="test-cntnt1-btnR"/></button></div>
                 </div>
 
-                <div className="test-cntnt2">
+                <div className="test-cntnt2">                 
+                {/* Final Socre Card Div*/}
+                  {finalScore ? (
+                    <div className="finalScore-card glass">
+                      <h1>Results</h1>
+                      <h2>{scoreCount}/{testQuestions.length} correct:({(scoreCount / testQuestions.length) * 100}%)</h2>
+                      <button onClick={()=> restartTest()} className="glass"><span>ResetQuiz</span></button>
+                    </div>
+                  ) : (
+                   <div className="testPrntCard">
+                    {/* Questions Card Div#1*/}
                     <div className="test-cntnt2-chld1">
                         <div className="testCnt2-chld1-cnt">
                             <h2>Question{ currntQts + 1}/{testQuestions.length}</h2>   
                             <h3 className="testCnt2-chld1-cntTestQts">{testQuestions[currntQts].questions}</h3>
                         </div>
                     </div>
-                {/* Final Socre Card Div*/}
-                  {finalScore ? (
-                    <div className="finalScore-card">
-                      <h1>Results</h1>
-                      <h2>{scoreCount} of {testQuestions.length} correct:({(scoreCount / testQuestions.length) * 100}%)</h2>
-                      <button onClick={()=> restartTest()}>ResetQuiz</button>
-                    </div>
-                  ) : (
-                  /* Questions Card Div*/
+                  {/* Questions Card Div#2*/}
                     <div className="test-cntnt2-chld2">
                         
                         <div className="testCnt3-chld2-cnt">
+                              <h2>Select Your Answer Below.</h2>
                             <ul>
                                {testQuestions[currntQts].selections.map((selection) => { 
-                                return (
+                                return (       
                                    <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id}>{selection.options}</li> 
                                 );
                             })}    
                             </ul>   
                         </div>
-                    </div>  
+                    </div> 
+                </div> 
                   )}
                 </div>
 

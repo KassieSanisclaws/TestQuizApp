@@ -6,9 +6,9 @@ body{
 
 :root{
   --bg-color: #37f78d1f;
- --bg2mediumSeaGreen: mediumseagreen;
- --bg3deepEmeraldGreen: #046307;
- --bg4Grey: #F4F6F7;
+  --bg2mediumSeaGreen: mediumseagreen;
+  --bg3deepEmeraldGreen: #046307;
+  --bg4Grey: #F4F6F7;
 }
 
 /* Application  Layout */
@@ -24,12 +24,11 @@ body{
     height: 100%;
   }
 
- a, span {
+ a, h1, h2, span {
    text-decoration: none;
    font-family: "Audiowide", sans-serif;
    color: crimson;
    text-transform: uppercase;
-
   }
 
   header{
@@ -39,7 +38,7 @@ body{
 
   navigation{
     grid-area: navigation;
-    background-color: var(--bg-color);
+    background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466));
   }
 
   main{
@@ -48,9 +47,18 @@ body{
 
   footer{
     grid-area: footer;
-    background-color: var(--bg-color);
+    background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466));
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+  }
+
+  .glass{
+    background: linear-gradient(135deg, rgba(225, 225, 225, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
 
  
