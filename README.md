@@ -79,4 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  - I created folders components, layouts, pages, screens for containing the various componenets being used within app.
  - I installed the react-router-dom library to better managing my page routing state. 
  - I wrapped my app component with the browser router from react-router-dom because my app is being developed in the browser.
- 
+ - 

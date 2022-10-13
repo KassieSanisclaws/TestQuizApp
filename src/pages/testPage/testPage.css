@@ -1,0 +1,116 @@
+
+.testPage-body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.testPage-section{
+    height: 100%;
+    width: 100%;
+
+}
+
+.testPage-container{
+    height: 105vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: -1rem;
+    padding: 15px 0;
+}
+
+.test-cntnt1{
+    background-color: #f4f6f7;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.test-cntnt1-btn{
+    width: 10vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      
+}
+
+.test-cntnt1-btn button{
+    background-color: rgba(0, 255, 128, 0.462);
+    height: 7vh;
+    width: 9vw;
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.test-cntnt1-btn button:hover{
+   opacity: .8;
+   cursor: pointer;
+}
+
+.test-cntnt1-btn span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.test-cntnt1-btnR{
+    background-image: url(../../images/iconImages/arrowR.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 5vw;
+    transition: all 0.3s ease-in;
+}
+
+.test-cntnt1-btnR:hover{
+    transform: scale(1.40);
+}
+
+.test-cntnt2{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    top: -1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.test-cntnt2-chld1{
+    height: 100%;
+    width: 45vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testCnt2-chld1-cnt{
+    background-color: aqua;
+    width: 40vw;
+    height: 75vh;
+}
+
+.test-cntnt2-chld2{
+    height: 100%;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testCnt3-chld2-cnt{
+    background-color: blueviolet;
+    width: 40vw;
+    height: 75vh;
+}

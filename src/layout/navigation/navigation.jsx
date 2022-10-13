@@ -14,6 +14,7 @@ export default function Navigation(){
                 <li><Link to="/tests"><img src={TestIcon} alt="testIcon"/><span>Tests</span></Link></li>      
                 <li> <Link to="/pricing"><img src={PricingIcon} alt="pricingIcon"/><span>Pricing</span></Link></li>               
              </ul>
+             <button className="navigation-btn"><span>TryForFree</span></button>
        </nav>
     );
 }

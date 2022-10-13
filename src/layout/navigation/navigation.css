@@ -31,6 +31,31 @@ body{
     height: 4vh;
     width: 2.3vw;
     border-radius: 60%;
+    
+}
+
+.navigation-body button{
+   position: relative;
+   top: 20px;
+   border-radius: 10px;
+   border: none;
+}
+
+.navigation-body button:hover{
+   opacity: .7;
+   cursor: pointer;
+   
+}
+
+.navigation-btn{
+   background-color: rgba(0, 255, 128, 0.462);
+   height: 9vh;
+   width: 10vw;
+   
+}
+
+.navigation-btn span{
+    font-size: 20px;
 }
 
 .site-logo{
@@ -41,6 +66,6 @@ body{
     height: 17vh;
     width: 9.5vw;
     border-radius: 107px;
-    position: fixed;
+    position: relative;
 }
 

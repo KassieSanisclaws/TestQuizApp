@@ -8,6 +8,7 @@ body{
   --bg-color: #37f78d1f;
  --bg2mediumSeaGreen: mediumseagreen;
  --bg3deepEmeraldGreen: #046307;
+ --bg4Grey: #F4F6F7;
 }
 
 /* Application  Layout */
@@ -23,11 +24,12 @@ body{
     height: 100%;
   }
 
- a {
+ a, span {
    text-decoration: none;
    font-family: "Audiowide", sans-serif;
    color: crimson;
    text-transform: uppercase;
+
   }
 
   header{
@@ -42,7 +44,6 @@ body{
 
   main{
     grid-area: main;
-    background-color: wheat;
   }
 
   footer{
