@@ -25,10 +25,107 @@
 }
 
 .home-cntnt1-innr{
-   background-color: tomato;
    height: 100%;
    width: 100%;
+   overflow: hidden;
+   display: flex;
+   
+}
 
+.home-cntnt1-innrChld1-div1{
+  background-color: rgba(46, 139, 86, 0.279);
+  /* background-color: rgba(0, 255, 128, 0.096); */
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cntnt1-innrChld1-div1-p{
+   width: 25vw;
+   margin-top: -2rem;
+}
+
+.home-cntnt1-innrChld1-div1 h2{
+  /* color: rgba(39, 209, 152, 0.816); */
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.home-cntnt1-innrChld1-div1 p{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cntnt1-innrChld1-div1Btns{
+   height: 10vh; 
+   width: 23vw;
+   overflow: hidden;
+   display: flex;
+   grid-gap: .5rem;
+  
+}
+
+.cntnt1-innrChld1-div1Btns-btn span{
+  color: rgba(39, 209, 152, 0.816);
+  font-weight: 700;
+  font-size: 20px; 
+}
+
+.cntnt1-innrChld1-div1Btns-btn:hover{
+  opacity: .7;
+}
+
+.cntnt1-innrChld1-div1Btns-btn {
+  border: 5px solid rgba(20, 206, 51, 0.493);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cntnt1-innrChld1-div1Btns button{
+   height: 100%;
+   width: 100%;
+}
+
+.cntnt1-innrChld1-div1Sales p{
+   color: white;
+   font-weight: 700;
+   font-size: 30px;
+   
+}
+
+.cntnt1-innrChld1-div1Sales-innr{
+  width: 30vw;
+  height: 23vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cntnt1-innrChld1-div1Sales-innr img{
+   height: 15vh;
+   width: 7vw;
+
+}
+
+.home-cntnt1-innrChld1-div2{
+  height: 100%;
+  width: 100%;
+}
+
+.home-cntnt1-innrChld1-div2Img{
+   background-image: url(../../images/bgImages/studentImage.png);
+   height: 100%;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .home-cntnt2{
@@ -37,28 +134,128 @@
 }
 
 .home-cntnt2-innr{
-  background-color: darkkhaki;
+  background-color: rgba(139, 138, 132, 0.04);
   height: 100%;
   width: 100%;
+  display: flex;
+}
+
+.home-cntnt2-innr-img{
+  height: 100%;
+  width: 100%;
+}
+
+.home-cntnt2-innr-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.home-cntnt2-innr-textBtn{
+  height: 100%;
+  width: 100%;
+  padding: 100px 5px;
+}
+
+.home-cntnt2-innr-textBtn h2{
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0 120px;
+}
+
+.home-cntnt2-innr-textBtn p{
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.home-cntnt2-innr-textBtn button{
+  border: 5px solid rgba(20, 206, 51, 0.493);
+  border-radius: 20px;
+  cursor: pointer;
+  width: 13vw;
+  height: 8vh;
+  margin: 0 21rem;
+}
+
+.home-cntnt2-innrBtn-span span{
+    color: rgba(39, 209, 152, 0.816);
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.home-cntnt2-innr-textBtn button:hover{
+  opacity: .8;
+  transform: scale(1.10);
 }
 
 .home-cntnt3{
-  background-color: chocolate;
   height: 70vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-
+  overflow: hidden;
 }
 
 .home-cntnt3-innr{
-  background-color: rgb(66, 137, 149);
   height: 100%;
-  width: 70vw;
+  width: 100%;
+  display: flex;
+}
+
+.home-cntnt3-innr-chld1{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-cntnt3-innr-chld1-img{
+  background-image: url(../../images/bgImages/bgImage2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.home-cntnt3-innr-chld2{
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  margin: -5rem 10px;
+}
+
+.home-cntnt3-innr-chld2 h2{
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.home-cntnt3-innr-chld2 p{
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.home-cntnt3-innr-chld2-img{
+  background-image: url(../../images/iconImages/pieChartPic2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 20vh;
+  width: 30vw;
+}
+
+.home-cntnt3-innr-img{
+  background-image: url(../../images/iconImages/pieChartPic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 30vh;
+  width: 30vw;
+  
 }
 
 .home-cntnt4{
-    background-color: rgb(123, 30, 210);
     height: 70vh;
     width: 100%;
     display: flex;
@@ -67,7 +264,6 @@
   }
   
   .home-cntnt4-innr{
-    background-color: rgb(66, 149, 83);
     height: 100%;
     width: 70vw;
   }
