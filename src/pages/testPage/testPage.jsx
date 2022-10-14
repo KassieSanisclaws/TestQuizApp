@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./testPage.css";
 import  testQtsData  from "../../json-data/testData";
+import { Link } from "react-router-dom";
 
 function TestPage(){
 // Properties. //
@@ -34,7 +35,7 @@ function TestPage(){
                 <div className="test-cntnt1">
                     <div className="test-cntnt1-countr glass"><span>Score:{scoreCount}</span></div>
                     <div className="test-cntnt1-title glass"><span>NameOfTest</span></div>
-                    <div className="test-cntnt1-btn"><button><div className="test-cntnt1-btnR"/></button></div>
+                    <div className="test-cntnt1-btn"><button><Link to="/test2" ><span>Next</span><div className="test-cntnt1-btnR"/></Link></button></div>
                 </div>
 
                 <div className="test-cntnt2">                 
