@@ -16,7 +16,7 @@ body{
     display: grid;
     grid-template-areas: 
         "header"
-        "navigation"
+        "nav"
         "main"
         "footer";
     grid-template-columns: 1fr;
@@ -36,8 +36,8 @@ body{
     overflow: hidden;
   }
 
-  navigation{
-    grid-area: navigation;
+  nav{
+    grid-area: nav;
     background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466));
   }
 

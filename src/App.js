@@ -12,9 +12,9 @@ function App() {
     <>
       <div  className="gridSection-layout">
        <header><Header/></header>
-        <navigation>
+        <nav>
              <Navigation/>
-        </navigation>
+        </nav>
 
         <main>
            <Routes>

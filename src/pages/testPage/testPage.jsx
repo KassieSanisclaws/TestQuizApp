@@ -8,6 +8,7 @@ function TestPage(){
   const [currntQts, setCurrntQts] = useState(0);
   const [scoreCount, setScoreCount] = useState(0);
   const [finalScore, setFinalScore] = useState(false);
+  const [radioBtnState, setRadioBtnState] = useState(false);
 
 // Helper Functions. //
 // check to see if the value of isAnswer is passing correct values. //
@@ -19,12 +20,17 @@ function TestPage(){
         setCurrntQts(currntQts + 1);
       }else{
         setFinalScore(true);
-      }      
+      } 
   }
   const restartTest = () => {
        setScoreCount(0);
        setCurrntQts(0);
        setFinalScore(false);
+  }
+  function isChecked(){
+     // handle radio btn is checked state. //
+     // I am taking the setRadioBtnState from state and changing it from true to false or false to true. //
+         setRadioBtnState(radioBtnState => !radioBtnState);
   }
 
     return (
@@ -62,8 +68,8 @@ function TestPage(){
                               <h2>Select Your Answer Below.</h2>
                             <ul>
                                {testQuestions[currntQts].selections.map((selection) => { 
-                                return (       
-                                   <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id}>{selection.options}</li> 
+                                return (                              
+                                        <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id} class="glass">{selection.options}</li> 
                                 );
                             })}    
                             </ul>   

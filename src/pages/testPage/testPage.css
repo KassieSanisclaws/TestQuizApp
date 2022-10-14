@@ -213,7 +213,9 @@
     color: rgba(39, 209, 152, 0.816);
     font-size: 35px;
     font-weight: 700;
-    margin: 35px 80px;
+    position: relative;
+    top: 15px;
+    left: 130px;
 }
 
 .testCnt3-chld2-cnt ul{
@@ -228,12 +230,22 @@
   padding: 16px;
   border: 3px solid white;
   border-radius: 20px;
-  font-size: 20px;
-  margin-top: 8px;  
+  font-size: 37px;
+  margin-top: 20px;  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 13vh;
+  transition: all 0.2s ease-in;
+  color: rgba(39, 209, 152, 0.816);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.testCnt3-chld2-cnt li:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  opacity: .8;
 }
 
 .testCnt3-chld2-cnt::before{
@@ -278,3 +290,5 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+

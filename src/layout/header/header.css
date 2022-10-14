@@ -20,6 +20,12 @@
     align-items: center;
 }
 
+.header-web-icon span{
+    color: rgba(39, 209, 152, 0.816);
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .header-links{
    /* margin-top: -1.7rem; */
    width: 15vw;
@@ -40,4 +46,10 @@
   width: 2vw;
   border-radius: 40%;
   
+}
+
+.header-links li span{
+    color: rgba(39, 209, 152, 0.816);
+    font-size: 18px;
+    font-weight: 700;
 }

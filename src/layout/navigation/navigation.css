@@ -20,7 +20,7 @@ body{
     grid-gap: 3rem;
     list-style: none;
     align-items: center;
-    width: 17vw;
+    width: 25vw;
 }
 
 .navigation-body li{
@@ -30,8 +30,13 @@ body{
 .navigation-body ul li img{
     height: 4vh;
     width: 2.3vw;
-    border-radius: 60%;
-    
+    border-radius: 60%; 
+}
+
+.navigation-body li span{
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
 }
 
 .navigation-body button{
