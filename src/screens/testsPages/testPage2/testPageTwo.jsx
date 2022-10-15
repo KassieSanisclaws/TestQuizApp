@@ -44,7 +44,7 @@ function TestPageTwo() {
                <div className="testPageTwo-container">
                <div className="testPageTwo-cntnt1">
                     <div className="testPageTwo-cntnt1-countr glass"><span>Score:{scoreCount}</span></div>
-                    <div className="testPageTwo-cntnt1-title glass"><span>NameOfTest</span></div>
+                    <div className="testPageTwo-cntnt1-title glass"><span>Guess It Out</span></div>
                     <div className="testPageTwo-cntnt1-btn"><button><span>Next</span><div className="testPageTwo-cntnt1-btnR"/></button></div>
                 </div>
 

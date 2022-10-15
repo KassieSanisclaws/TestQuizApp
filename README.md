@@ -78,5 +78,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  - create folder layout for application. 
  - I created folders components, layouts, pages, screens for containing the various componenets being used within app.
  - I installed the react-router-dom library to better managing my page routing state. 
- - I wrapped my app component with the browser router from react-router-dom because my app is being developed in the browser.
+ - I wrapped my app component with the browser router from react-router-dom because my app is being developed in the browser to better help with routinh.
+ - I then started drafting a design based on the requirments and the examples i was given and have seen. 
+ 
+
+ -todo's refactoring some components, code and adding randomizer.
+ - fetch api to received data from backend.
+ - backend started but connection string issues.
+ - sequilie or regular config determining options,
+ application can be scaled up. 
+ - code can be more cleaner using more components.
+ - implementation of signin, help, pricing pages. 
  - 
