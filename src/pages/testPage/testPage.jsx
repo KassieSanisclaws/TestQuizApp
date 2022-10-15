@@ -63,7 +63,7 @@ function TestPage(){
                             <ul>
                                {testQuestions[currntQts].selections.map((selection) => { 
                                 return (                              
-                                        <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id} class="glass">{selection.options}</li> 
+                                        <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id} className="glass">{selection.options}</li> 
                                 );
                             })}    
                             </ul>   

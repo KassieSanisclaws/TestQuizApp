@@ -12,7 +12,13 @@ function TestPageTwo() {
   const [scoreCount, setScoreCount] = useState(0);
   const [finalScore, setFinalScore] = useState(false);
 
+  // Radom Questions. //
+  // create function randomize question. // 
+  // currently working on shuffle for test questions. able to shuffle array looking to display in ui.//
+    //  const shffleTestQuestions = testQuestionsTwo.sort(() => Math.random() - 0.5);
+    //       console.log(shffleTestQuestions);
 
+           
 
   // Helper Functions. //
   const selectedOptn = (isAnswer) => {
@@ -67,7 +73,7 @@ function TestPageTwo() {
                             <ul>
                                {testQuestionsTwo[currntQts].selections.map((selection) => { 
                                 return (                              
-                                        <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id} class="glass">{selection.options}</li> 
+                                        <li onClick={()=> selectedOptn(selection.isAnswer)} key={selection.id} className="glass">{selection.options}</li> 
                                 );
                             })}    
                             </ul>   

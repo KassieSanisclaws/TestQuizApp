@@ -58,7 +58,7 @@ function HomePage() {
              </div>
              <div className="home-cntnt4">
                 <div className="home-cntnt4-innr">
-                  <iframe width="1430" height="664" src="https://www.youtube.com/embed/ypOnlAHF5yQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="1430" height="664" src="https://www.youtube.com/embed/ypOnlAHF5yQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
              </div>
        

@@ -256,11 +256,11 @@
 }
 
 .home-cntnt4{
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
-
+    overflow: hidden;
   }
   
   .home-cntnt4-innr{
